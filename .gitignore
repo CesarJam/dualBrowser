@@ -1,0 +1,31 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependencias (Nunca subas esta carpeta)
+node_modules
+dist-ssr
+*.local
+
+# Editor de código
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Variables de entorno (¡El candado de seguridad!)
+.env
+.env.*
+!.env.example
+
+# Build de producción
+dist

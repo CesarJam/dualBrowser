@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Aseguramos que la app ocupe el 100% de la pantalla del iPad sin scroll global */
+html, body, #app {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #f3f4f6;
+}
